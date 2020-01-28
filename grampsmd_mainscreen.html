@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GrampsMD Main Screen</title>
+    <link href="grampsmd_all.css" rel="stylesheet">
+</head>
+<body>
+        <main class='main-page'>
+
+            <header class='main-header'>
+                <h1>GrampsMD Main Header</h1>
+                <p class='app-description'>
+                    Description of app here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec felis tempor, bibendquis porttitor. 
+                </p>
+            </header>
+            <section class='main-info'>
+            <article class='grandpa-img'>
+                <img src='https://www.home.neustar/blog/default-7d66f7da851b6b7d94f785c7d6e6a4b0.png' alt='heres a pic of grandpa'>
+            </article>
+            <article class='gramps-form-container'>
+                <form class='landing-form'>
+                    <br> (form section) <br>
+                    <label for='symptoms-list'>What are your main symptoms?</label>
+                    <input name='symptoms-list' id='symptoms-list' type='text' placeholder='Sloth'/>
+                    <label for='symptoms-display'>Or select from below:</label>
+                    <fieldset name='symptoms-display' id='symptoms-display'>
+                    <input name='headache' id='headache' type='button' value='Headache'/>
+                    <input name='runny-nose' id='runny-nose' type='button' value='Runny Nose'/>
+                    <input name='cough' id='cough' type='button' value='Cough'/>
+                    <input name='frequent-crying' id='frequent-crying' type='button' value='Frequent Crying'/>
+                    </fieldset>
+                    <button name='next' id='next'>
+                        Next
+                    </button>
+                </form>
+            </article>
+            </section>
+</body>
+</html>
